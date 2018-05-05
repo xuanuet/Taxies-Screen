@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script src="js/app.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+<div id="header">
+	<div class="w3_navigation">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="navbar-collapse navbar-right collapse" id="bs-example-navbar-collapse-1" style="height: 0px;">
+					<nav class="menu menu--iris">
+						<ul class="nav navbar-nav menu__list">
+							<li class="menu__item "><a href="#" class="menu__link">About Us</a>
+							</li>
+							<li class="menu__item"><a href="#" class="menu__link">Taxi Companies</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Information Blog</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<h1><a class="navbar-brand" href="index.html"> <img src="css/image/logo.png" alt="logo"> </a></h1>
+				<div class="header-right">
+					<img src="css/image/top_lock.png" alt="lock">
+				</div>
+			</nav>
+
+		</div>
+	</div>
+</div>
+<div class="main-content">
+	<div class="container">
+		<h4>Compare and book the most comfortable taxis and cabs in Japan</h4>
+		<div class="info">
+			<p><span> INFO</span>Compare and book the most comfortable taxis</p>
+		</div>
+		<div class="input-group">
+			<input id="pichup" type="text" class="form-control pichup" name="pichup" placeholder="Enter pichup pstcode, venue or place">
+			<span class="input-group-addon"></span>
+		</div>
+		<div class="extra-button">
+			<div class="Button"><a href="#zoomIn">+</a></div>
+			<div class="extra-text">VIA</div>
+		</div>
+		<div class="input-group last">
+			<input id="destination" type="text" class="form-control des" name="destination" placeholder="Enter destination pstcode, venue or place">
+		</div>
+		<div class="form-group" name="whenpane" style="margin-bottom: 5px">
+			<div class="option-group">
+				<label class="radio-inline">
+					<input value="now" type="radio" name="when_group" checked="checked">One way</label>
+				<div class="counter">
+					<div class="days count-item"><span class="number">Sat 24th Feb</span></div>
+					<div class="hours count-item"><span class="number">13</span></div>
+					<div class="minutes count-item"><span class="number">40</span>
+					</div>
+				</div>
+			</div>
+			<div class="option-group">
+				<label class="radio-inline">
+					<input value="later" type="radio" name="when_group">Return</label>
+				<div class="counter">
+					<div class="days count-item"><span class="number">Sat 24th Feb</span></div>
+					<div class="hours count-item"><span class="number">13</span></div>
+					<div class="minutes count-item"><span class="number">50</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<label class="f-label">Passenger</label>
+		<select class="form-control parssenger" name="passengers">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</select>
+		<label class="f-label">Choose Options</label>
+		<div class="col-6 col-l">
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[1][]" />English Available</label>
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[1][]" />Welcome Drink</label>
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[1][]" />Guide</label>
+		</div>
+		<div class="col-6 col-r">
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[2][]" />Meal Coupon</label>
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[2][]" />Options</label>
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[2][]" />Option2</label>
+		</div>
+		<label class="f-label">Car Type</label>
+		<div class="col-6 col-l">
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[1][]" />Sedan/Saloon</label>
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[1][]" />Van</label>
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[1][]" />Box Car</label>
+		</div>
+		<div class="col-6 col-r">
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[2][]" />Executive Type</label>
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[2][]" />Options</label>
+			<label>
+				<input type="checkbox" class="radio" value="1" name="fooby[2][]" />Option2</label>
+		</div>
+		<div class="search">
+			<button class=" button"> SEARCH</button>
+		</div>
+	</div>
+</div>
+<div id="footer">
+
+</div>
+
+
+</body>
+</html>

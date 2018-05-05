@@ -1,0 +1,146 @@
+#header
+{
+	background: url("image/top_bg.png") no-repeat;
+	background-size: cover;
+}
+.navbar-toggle .icon-bar
+{
+	display: block;
+	width: 22px;
+	height: 3px;
+}
+.navbar-toggle .icon-bar + .icon-bar
+{
+	margin-top: 4px;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+	background-color: #ffffff;
+}
+.navbar-default .navbar-toggle
+{
+	background: #cd4e39;
+	border: navajowhite;
+}
+.navbar-toggle
+{
+	margin: 0 0 0;
+	border-radius: 0;
+	padding: 10px 10px;
+}
+.input-group-addon
+{
+	background: #cd4e39;
+	max-width: 60px;
+}
+.extra-button
+{
+	display: flex;
+}
+.Button
+{
+	border-radius: 50%;
+	width: 42px;
+	height: 42px;
+	background: #cd4e39;
+	text-align: center;
+	line-height: 32px;
+}
+.Button a
+{
+	width: 42px;
+	height: 42px;
+	color: #ffffff;
+	font-size: 42px;
+}
+.extra-text
+{
+	line-height: 42px;
+	font-size: 24px;
+	color: #cc4d39;
+}
+.counter
+{
+	text-align: center;
+}
+.counter .count-item
+{
+	position: relative;
+	display: inline-block;
+	margin: 0 8px;
+}
+.counter .count-item:last-child
+{
+	margin-left: 0;
+}
+.counter .count-item .number
+{
+	height: 60px;
+	background: #ffffff;
+	border: 1px solid #d6d6d6;
+	min-width: 60px;
+	border-radius: 4px;
+	display: inline-block;
+	font-size: 24px;
+	color: #000000;
+	text-align: center;
+}
+.option-group
+{
+	display: flex;
+}
+.form-control.pichup
+{
+	background: url("image/location.png") right no-repeat;
+	background-size: contain;
+}
+.form-control.des
+{
+	background: url("image/icon_01.png") right no-repeat;
+	background-size: contain;
+}
+.form-control.parssenger
+{
+	background: url("image/icon_02.png") right no-repeat;
+	background-size: contain;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+}
+.button
+{
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 30px;
+	background: #cc4d39;
+	display: inline-block;
+	cursor: pointer;
+	border: 0;
+	bottom: 140px;
+	color: #fff;
+	text-transform: uppercase;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+.search
+{
+	text-align: center;
+}
+.col-6
+{
+	width: 50%;
+}
+.col-6 .radio
+{
+	border: 1px solid #9c9c9c;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	min-width: 40px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
